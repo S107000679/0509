@@ -1,0 +1,66 @@
+
+<DOCTYPE>
+<html>
+<head>
+<style>
+table#t01, th, td{
+  border: 1px solid black;
+  border-collapse: seperate;
+ } 
+table#t02, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+} 
+  
+</style>
+</head>
+<body> 
+
+<table id="t01" style="width:100%;color:black;font-size:30px;">
+<caption>  My classmates </caption>
+  <tr style="color: black;font:30px">
+    <th>Firstname</th>
+    <th  colspan="2"> Lastname/ age </th>      
+  </tr>
+  <tr>
+    <td rowspan="2" style="background-color: lightblue;">Jill</td>
+      <td> Fire </td>
+    <td  style="background-color:yellow;"> 22 </td>
+  </tr>
+  <tr>
+    <td rowspan="2">Doe</td>
+    
+    <td>23 </td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td  style="background-color: yellow;">22</td>
+  </tr>
+</table>
+    
+    <br>
+    <br>
+<table id="t02" style="width:100%;color:brown;font-size:30px;">
+<caption>  My friends </caption>
+  <tr style="color: black; background-color: lightgray;">
+    <th>Firstname</th>
+    <th  colspan="2"> Lastname/ age </th>      
+  </tr>
+  <tr style=" background-color:lightblue;">
+    <td>A</td>
+    <td>B</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>D</td>
+    <td>E</td>
+    <td>F</td>
+  </tr>
+  <tr >
+    <td>G</td>
+    <td>H</td>
+    <td>I</td>
+  </tr>
+</table>
+</body>
+</html>
